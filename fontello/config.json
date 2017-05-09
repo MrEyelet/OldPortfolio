@@ -1,0 +1,46 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "b49fa3e57e92b38143e0fdcc5d9a904b",
+      "css": "gmail",
+      "code": 59392,
+      "src": "zocial"
+    },
+    {
+      "uid": "8870252f5da59a63564fb6790a347c8e",
+      "css": "linkedin-rect",
+      "code": 59393,
+      "src": "websymbols"
+    },
+    {
+      "uid": "bbd66ef66bb8fa9edde54d9a90b89150",
+      "css": "user",
+      "code": 59394,
+      "src": "entypo"
+    },
+    {
+      "uid": "6a06892e76b81e023da6ddfb38a26b37",
+      "css": "doc-text",
+      "code": 59395,
+      "src": "typicons"
+    },
+    {
+      "uid": "17ebadd1e3f274ff0205601eef7b9cc4",
+      "css": "help-circled",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "26613a2e6bc41593c54bead46f8c8ee3",
+      "css": "file-code",
+      "code": 59397,
+      "src": "fontawesome"
+    }
+  ]
+}

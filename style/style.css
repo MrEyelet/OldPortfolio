@@ -1,0 +1,271 @@
+@charset "utf-8";
+
+/*CSS Document*/
+
+body {
+	background-color: #303030;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+#container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.rectangle1 {
+	width: 1000px;
+	text-align: center;
+}
+
+img {
+	float: right;
+	margin-right: 15px;
+}
+
+ img:hover {
+ 	-webkit-transform: scale(1.1);
+ 	-moz-transform: scale(1.1);
+ 	-o-transform: scale(1.1);
+ 	-ms-transform: scale(1.1);
+ 	transform: scale(1.1);
+ }
+
+.square1 {
+	width: 70%;
+	float: left;
+}
+
+.square2 {
+	width: 30%;
+	float: left;
+}
+
+#logo {
+	float:left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 70px;
+	width: 70%;
+	padding-left: 10px;
+	text-align: left;
+	margin-top: 45px;
+	float: left;
+}
+
+.tile1 {
+	margin: 10px 0 10px 0;
+	width: 275px;
+	height: 142px;
+	background-color:#00cc69;
+	float:left;
+	text-align: center;
+}
+
+.tile1:hover {
+	background-color: #303030;
+	border: 1px solid #00cc69;
+	width: 273px;
+	height: 140px;
+}
+
+.tile2 {
+	margin: 10px 0 10px 10px;
+	width: 275px;
+	height: 142px;
+	background-color: #00994f;
+	float:left;
+	text-align: center;
+}
+
+.tile2:hover {
+	background-color: #303030;
+	border: 1px solid #00994f;
+	width: 273px;
+	height: 140px;
+}
+
+.tile3 {
+	margin: 10px 0 10px 10px;
+	width: 275px;
+	height: 142px;
+	background-color:#006635;
+	float:left;
+	text-align: center;
+}
+
+.tile3:hover {
+	background-color: #303030;
+	border: 1px solid #006635;
+	width: 273px;
+	height: 140px;
+}
+
+.tile4 {
+	margin: 10px;
+	width: 620px;
+	height: 244px;
+	background-color: #666666;
+	text-align: center;
+	padding: 30px;
+}
+
+.tile4 ul {
+	text-align: left;
+}
+
+.tile4 a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.tile4 a:hover {
+	text-decoration: underline;
+}
+
+.tile4 a:active {
+	text-decoration: underline;
+}
+
+.gmail {
+	margin: 10px 10px 10px 5px;
+	width: 330px;
+	height: 70px;
+	float:left;
+	background-color: #c83237;
+	text-align: center;
+}
+
+.gmail:hover {
+	background-color: #303030;
+	border: 1px solid #c83237;
+	width: 328px;
+	height: 68px;
+}
+
+.linkedin {
+	margin:10px 15px 10px 10px;
+	width: 330px;
+	height: 70px;
+	float:left;
+	background-color: #0066ff;
+	text-align: center;
+}
+
+.linkedin:hover {
+	background-color: #303030;
+	border: 1px solid #0066ff;
+	width: 328px;
+	height: 68px;
+}
+
+.tile5 {
+	margin: 10px 0 10px 10px;
+	width: 275px;
+	height: 70px;
+	background-color: #004d28;
+	float:left;
+	text-align: center;
+}
+
+.tile5:hover {
+	background-color: #303030;
+	border: 1px solid #004d28;
+	width: 273px;
+	height: 68px;
+}
+
+a.tilelinkhtml5  {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.footer {
+	margin-top: 15px;
+	font-size: 14px;
+	text-align: center;
+}
+
+/*Responsive Web Design*/
+
+@media(max-width: 1000px) {
+	#container {width: 100%;}
+}
+@media(max-width: 1000px) and (min-width: 700px) {
+	#container {width: 100%;}
+
+	.square1 {width: 100%; margin-top: 150px;}
+	.square2 {width: 100%; float: none; margin-top: -400px;}
+	
+	.rectangle1 {width: 100%;}
+
+	.tile1 {width: 49%; margin-bottom: 20px;}
+	.tile1:hover {width: 49%;}
+	.tile2 {width: 49%; float: right; margin-bottom: 20px;}
+	.tile2:hover {width: 49%;}
+	.tile3 {width: 100%; margin: -455px 0 0 0;}
+	.tile3:hover {width: 100%;}
+	.tile4 {width:100%; padding-left: 0px; padding-right: 0px; margin: 0;}
+
+	.linkedin {width: 49%; margin: 10px 0 0 0;}
+	.linkedin:hover {width: 49%;}
+	.gmail {width: 49%; margin: 10px 0 0 0; float: right;}
+	.gmail:hover {width: 49%;}
+	.tile5 {width: 100%; margin-top: 20px; margin-left: 0;}
+	.tile5:hover {width: 100%;}
+	.footer {clear: both;}
+}
+@media(max-width: 700px) and (min-width: 480px) {
+	#container{width: 100%;}
+
+	.rectangle1{width: 100%;}
+
+	#logo {font-size: 50px;}
+
+	.square1 {width: 100%; margin-top: 320px;}
+	.square2 {width: 100%; float: none; margin-top: -400px;}
+
+	.tile1 {width: 100%; font-size: 18px;}
+	.tile1:hover {width:100%;}
+	.tile2 {width: 100%; margin-left: 0; margin-top: -620px; font-size: 18px;}
+	.tile2:hover {width: 100%;}
+	.tile3 {width: 100%; margin-left: 0; margin-top: -465px; font-size: 18px;}
+	.tile3:hover {width: 100%;}
+	.tile4 {width: 100%; padding-left: 0px; padding-right: 0px; margin: 0; overflow: auto; font-size: 17px;}
+
+	.linkedin {width: 100%; margin-left: 0; margin-top: 20px;}
+	.linkedin:hover {width: 100%;}
+	.gmail {width: 100%; margin-left: 0;}
+	.gmail:hover {width: 100%;}
+	.tile5 {width: 100%; margin-left: 0; font-size: 18px;}
+	.tile5:hover {width: 100%;}
+	.footer {clear: both; font-size: 10px;}
+}
+
+@media(max-width: 480px) and (min-width: 275px) {
+	#container{width: 100%;}
+
+	.rectangle1{width: 100%;}
+
+	#logo {font-size: 30px;}
+
+	.square1 {width: 100%; margin-top: 320px;}
+	.square2 {width: 100%; float: none; margin-top: -400px;}
+
+	.tile1 {width: 100%; font-size: 16px;}
+	.tile1:hover {width:100%;}
+	.tile2 {width: 100%; margin-left: 0; margin-top: -620px; font-size: 16px;}
+	.tile2:hover {width: 100%;}
+	.tile3 {width: 100%; margin-left: 0; margin-top: -465px; font-size: 16px;}
+	.tile3:hover {width: 100%;}
+	.tile4 {width:100%; padding-left: 0; padding-right: 0; margin: 0; overflow: auto; font-size: 12.5px;}
+
+
+	.linkedin {width: 100%; margin-left: 0; margin-top: 20px;}
+	.linkedin:hover {width: 100%;}
+	.gmail {width: 100%; margin-left: 0;}
+	.gmail:hover {width: 100%;}
+	.tile5 {width: 100%; margin-left: 0; font-size: 16px;}
+	.tile5:hover {width: 100%;}
+	.footer {clear: both; font-size: 10px;}
+}
